@@ -1,24 +1,58 @@
-# VS Code 编辑器配置
+# -------------- VS Code / VS 相关垃圾文件 --------------
 .vscode/
-
-# Visual Studio 编译产物
 .vs/
+*.vcxproj.user
+*.suo
+*.sdf
+*.opensdf
+*.cache
+*.tlog
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+*.iobj
+*.ipdb
+*.bsc
+*.pch
+*.ncb
+*.aps
+*.res
+*.idb
+*.manifest
+*.manifest.res
+*.manifest.rc
+*.lastbuildstate
+*.log
+*.vsp
+*.vspscc
+*.vssscc
+*.builds
+*.pidb
+*.scc
+*.orig
+
+# -------------- CMake 相关垃圾文件 --------------
+build/
 x64/
 Debug/
 Release/
-ipch/
-*.obj
-*.pdb
-*.exe
-*.ilk
-*.log
-
-# CMake 生成文件
-build/
 cmake-build-*/
-CMakeFiles/
 CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+Makefile
+*.cmake
+CMakeLists.txt.user
 
-# 系统垃圾文件
-.DS_Store
+# -------------- 系统/其他垃圾文件 --------------
+*.bak
+*.tmp
+*.swp
+*~
 Thumbs.db
+.DS_Store
