@@ -1,62 +1,24 @@
-# Visual Studio 相关文件
+# VS Code 编辑器配置
+.vscode/
+
+# Visual Studio 编译产物
 .vs/
-*.vcxproj.user
-*.vcxproj.filters
-*.vcxproj
-*.sln
-*.suo
-*.sdf
-*.opensdf
-*.cache
-*.log
-*.tlog
-*.obj
-*.pdb
-*.ilk
-*.exp
-*.lib
-*.dll
-*.exe
-*.iobj
-*.ipdb
-*.bsc
-*.pch
-*.ncb
-*.aps
-*.res
-*.idb
-*.manifest
-*.manifest.res
-*.manifest.rc
-*.lastbuildstate
-*.log
-*.vsp
-*.vspscc
-*.vssscc
-*.builds
-*.pidb
-*.scc
-*.orig
-
-# CMake 相关文件
-CMakeLists.txt.user
-CMakeCache.txt
-CMakeFiles/
-cmake_install.cmake
-install_manifest.txt
-Makefile
-*.cmake
-
-# 构建目录
-build/
 x64/
 Debug/
 Release/
+ipch/
+*.obj
+*.pdb
+*.exe
+*.ilk
+*.log
 
-# 其他
-*.bak
-*.tmp
-*.swp
-*~
-Thumbs.db
+# CMake 生成文件
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+
+# 系统垃圾文件
 .DS_Store
+Thumbs.db
